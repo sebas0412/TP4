@@ -1,17 +1,53 @@
 #include <iostream>
+#include "lista.h"
 
 using namespace std;
 
+class Neurona{
+    float carga;
+    float umbral;
+    Lista conexiones;
+    void agregarConexion(Neurona neurona, float peso){
+
+    }
+
+    void aplicarCarga(float carga){
+
+    }
+    //Carga aplicarCarga(carga);
+
+};
+
+class Conexion{
+    Neurona r;
+    float peso;
+    Conexion(Neurona r2, float peso2){
+        r = r2;
+        peso = peso2;
+    }
+
+};
+
+
+
+class Capa{
+    //Neurona neuronas;
+    Lista neuronas;
+    void agregarNeurona(Neurona neuronas){
+
+    }
+};
 
 class RedNeuronal{
-    Capa capas;
-    //Lista capas;
+    Lista capas;
 
     RedNeuronal(){
         
     }
     void agregarCapa(int cNeuronas){
-        
+        for(int i=0; i<cNeuronas;i++){
+
+        }
     }
     string Clasificar(int dato){
         string genero;
@@ -23,43 +59,6 @@ class RedNeuronal{
     void Entrenar(int datos){
         
     }
-
-    
-       
-    
-};
-
-class Neurona{
-    float carga;
-    float umbral;
-    Conexion conexion;
-   // Lista conexion;
-    void agregarConexion(Neurona neurona, float peso){
-        
-    }
-    
-    void aplicarCarga(carga){
-        
-    }
-
-};
-
-class Capa{
-    Neurona neuronas;
-    //Lista neuronas;
-    void agregarNeurona(neuronas){
-        
-    }
-};
-
-class Conexion{
-    Neurona r;
-    float peso;
-    Conexion(Neurona r2, float peso2){
-        r = r2;
-        peso = peso2;
-    }
-
 };
 
 int main()

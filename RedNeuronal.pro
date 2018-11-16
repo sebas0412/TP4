@@ -4,7 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    ../../Downloads/Tarea programada 2/lista.cpp
+    ../../Downloads/Tarea programada 2/lista.cpp \
+    lista.cpp
 
 HEADERS += \
-    ../../Downloads/Tarea programada 2/lista.h
+    ../../Downloads/Tarea programada 2/lista.h \
+    lista.h \
+    lista.h
