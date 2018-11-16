@@ -2,10 +2,10 @@
 
 using namespace std;
 
-class template<class T>
+
 class RedNeuronal{
     Capa capas;
-    Lista capas;
+    //Lista capas;
 
     RedNeuronal(){
         
@@ -13,8 +13,11 @@ class RedNeuronal{
     void agregarCapa(int cNeuronas){
         
     }
-    T Clasificar(int dato){
-        
+    string Clasificar(int dato){
+        string genero;
+
+
+        return genero;
     }
     
     void Entrenar(int datos){
@@ -30,8 +33,8 @@ class Neurona{
     float carga;
     float umbral;
     Conexion conexion;
-    Lista conexion;
-    void agregarConexion(neurona, peso){
+   // Lista conexion;
+    void agregarConexion(Neurona neurona, float peso){
         
     }
     
@@ -43,7 +46,7 @@ class Neurona{
 
 class Capa{
     Neurona neuronas;
-    Lista neuronas;
+    //Lista neuronas;
     void agregarNeurona(neuronas){
         
     }
@@ -52,7 +55,7 @@ class Capa{
 class Conexion{
     Neurona r;
     float peso;
-    void Conexion(Neurona r2, float peso2){
+    Conexion(Neurona r2, float peso2){
         r = r2;
         peso = peso2;
     }
@@ -61,6 +64,6 @@ class Conexion{
 
 int main()
 {
-    //cout << "Hello World!" << endl;
+    //cout << "Hello World123!" << endl;
     return 0;
 }
